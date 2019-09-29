@@ -15,8 +15,8 @@ You can write a console application or UI to complete the task.
 Try to code the challenge as you would approach any typical work task; we are not looking for you to show knowledge of frameworks or unusual programming language features. Most importantly, keep it simple.
 
 If in doubt use following resources to check game rules:
-Game Rules: https://www.hasbro.com/common/instruct/Battleship.PDF
-Video describing game: https://www.youtube.com/watch?v=q0qpQ8doUp8
+- Game Rules: https://www.hasbro.com/common/instruct/Battleship.PDF
+- Video describing game: https://www.youtube.com/watch?v=q0qpQ8doUp8
 
 # Project
 You need to install [.NET Core: 3.0.100](https://dotnet.microsoft.com/download/dotnet-core/3.0)
