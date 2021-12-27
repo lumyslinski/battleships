@@ -26,6 +26,7 @@ namespace Battleships.Core.Grid
         {
             int tryCurrent = 0;
             int tryMax = 10;
+
             while (tryCurrent <= tryMax && !ship.IsPlaced)
             {
                 Random random = new Random();
@@ -116,6 +117,7 @@ namespace Battleships.Core.Grid
             }
             return foundRow;
         }
+        
         private int GetRowPosition(int tryCurrent, Random random, int columnPosition)
         {
             if (tryCurrent < 3)
@@ -131,6 +133,7 @@ namespace Battleships.Core.Grid
                 return (ShipPlacementMode)random.Next(0, ((int)modeAll));
             return modeAll;
         }
+        
         public GridLocation GetPlace(ShipPosition position)
         {
             return this.grid[(int)position.Row, position.Column];

@@ -18,22 +18,26 @@ namespace Battleships.Core.Grid
             this.Ship = ship;
             this.State = GridStates.Ship;
         }
+
         public void RemoveShip()
         {
             this.Ship = null;
             this.State = GridStates.Empty;
         }
+
         public void ShootShip()
         {
             if (this.IsThereShip)
             {
                 this.Ship.DecreaseLife();
                 this.State = GridStates.Hit;
-            } else
+            } 
+            else
             {
                 this.State = GridStates.Miss;
             }
         }
+
         public void PlaceShip(BaseShip ship)
         {
             this.Ship = ship;
