@@ -10,7 +10,7 @@ The program create a 10x10 grid and place several ships on the grid at random wi
 The player enters coordinates of the form "A5", where "A" is the column and "5" is the row, to specify a square to target. Shots result in hits, misses or sinks. The game ends when all ships are sunk.
 
 # Project
-You need to install [.NET Core: 3.0.100](https://dotnet.microsoft.com/download/dotnet-core/3.0)
+You need to install [.NET Core 5](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
 ### Running
 You can run this console app from command line where Battleships is the directory of csproj of console app. Example:
 ```
